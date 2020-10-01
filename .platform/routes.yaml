@@ -1,6 +1,6 @@
 "https://{default}/":
   type: upstream
-  upstream: "website:http"
+  upstream: "website:http//"
   cache:
     enabled: true
     default_ttl: 3600
